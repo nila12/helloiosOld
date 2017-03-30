@@ -75,9 +75,9 @@
 		9D0B5A4B1E8B3C28003BC163 = {
 			isa = PBXGroup;
 			children = (
-				9D0B5A561E8B3C28003BC163 /* ToDoList */,
-				9D0B5A6B1E8B3C28003BC163 /* ToDoListTests */,
-				9D0B5A761E8B3C28003BC163 /* ToDoListUITests */,
+				9D0B5A561E8B3C28003BC163 /* Hello */,
+				9D0B5A6B1E8B3C28003BC163 /* HelloTests */,
+				9D0B5A761E8B3C28003BC163 /* HelloUITests */,
 				9D0B5A551E8B3C28003BC163 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D0B5A561E8B3C28003BC163 /* ToDoList */ = {
+		9D0B5A561E8B3C28003BC163 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
 				9D0B5A571E8B3C28003BC163 /* AppDelegate.swift */,
@@ -101,24 +101,27 @@
 				9D0B5A601E8B3C28003BC163 /* LaunchScreen.storyboard */,
 				9D0B5A631E8B3C28003BC163 /* Info.plist */,
 			);
+			name = Hello;
 			path = ToDoList;
 			sourceTree = "<group>";
 		};
-		9D0B5A6B1E8B3C28003BC163 /* ToDoListTests */ = {
+		9D0B5A6B1E8B3C28003BC163 /* HelloTests */ = {
 			isa = PBXGroup;
 			children = (
 				9D0B5A6C1E8B3C28003BC163 /* ToDoListTests.swift */,
 				9D0B5A6E1E8B3C28003BC163 /* Info.plist */,
 			);
+			name = HelloTests;
 			path = ToDoListTests;
 			sourceTree = "<group>";
 		};
-		9D0B5A761E8B3C28003BC163 /* ToDoListUITests */ = {
+		9D0B5A761E8B3C28003BC163 /* HelloUITests */ = {
 			isa = PBXGroup;
 			children = (
 				9D0B5A771E8B3C28003BC163 /* ToDoListUITests.swift */,
 				9D0B5A791E8B3C28003BC163 /* Info.plist */,
 			);
+			name = HelloUITests;
 			path = ToDoListUITests;
 			sourceTree = "<group>";
 		};
@@ -504,6 +507,7 @@
 				9D0B5A7E1E8B3C28003BC163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D0B5A7F1E8B3C28003BC163 /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				9D0B5A811E8B3C28003BC163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D0B5A821E8B3C28003BC163 /* Build configuration list for PBXNativeTarget "HelloUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				9D0B5A841E8B3C28003BC163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
